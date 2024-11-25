@@ -1,3 +1,3 @@
 # oslab
 
-The solutions of labs of HIT operating system course.
+The solutions to the labs of HIT operating system course.
