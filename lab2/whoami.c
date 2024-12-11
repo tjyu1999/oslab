@@ -1,8 +1,9 @@
 #include <errno.h>
 #define __LIBRARY__
+#include <stdio.h>
 #include <unistd.h>
 
-_syscall2(int whoami, char *name, unsigned int size);
+_syscall2(int, whoami, char *, name, unsigned int, size);
 
 int main() {
     char s[30];
